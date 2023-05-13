@@ -110,6 +110,13 @@ nav {
   background-color: #282c34;
 }
 
+.player-detail > a {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
 footer {
   display: flex;
   justify-content: center;

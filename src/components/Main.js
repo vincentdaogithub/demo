@@ -11,6 +11,6 @@ export default class Main extends Component {
     }
 
     render() {
-        return <PlayersContainer players={this.state.players} />
+        return <PlayersContainer players={this.state.players} />;
     }
 }

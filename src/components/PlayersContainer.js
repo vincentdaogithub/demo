@@ -5,7 +5,7 @@ export default function PlayersContainer({players}) {
     return (
         <div className="players-container">
             {players.map((player) =>
-                <Player img={player.img} name={player.name} club={player.club} />
+                <Player player={player} />
             )}
         </div>
     );
